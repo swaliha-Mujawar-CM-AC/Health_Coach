@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mine1"
+    android:orientation="vertical"
+    tools:context=".ui.AlarmActivity"
+    >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/water"
+        android:layout_margin="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Science shows that drinking water at the correct times of day can help to prevent common problems such as stomach pain, IBS, bloating, fatigue, overeating, high blood pressure, constipation, and even heart attack and stroke."
+        android:textColor="#333"
+        android:textAlignment="center"
+        android:justificationMode="inter_word"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+
+    <Button
+        android:id="@+id/alarm_btn"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Start reminder"/>
+
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Stop reminder"/>
+
+</LinearLayout>

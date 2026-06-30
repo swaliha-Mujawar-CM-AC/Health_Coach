@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".ui.LooseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:background="@drawable/mine1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Videos For Loosing Weight"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="@color/md_blue_A400"
+            android:padding="20dp"
+            android:layout_margin="16dp"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="2MoGxae-zyo"
+                    app:showSeekBar="true"
+                    app:showFullScreenButton="true"
+                    android:id="@+id/video11"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Do This Everyday To Lose Weight | 2 Weeks Shred Challenge"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="4dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="H3jJ29oE8Zg"
+                    app:showSeekBar="true"
+                    android:id="@+id/video12"
+                    app:showFullScreenButton="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lose Weight | Exercises To Lose Belly Fat | Exercises To Lose Weight"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="12dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="Crda1Sv9mks"
+                    app:showSeekBar="true"
+                    android:id="@+id/video13"
+                    app:showFullScreenButton="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Do This Workout To Lose Weight | 2020 2 Weeks Shred Challenge"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="4dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="Lscqihirc3c"
+                    app:showSeekBar="true"
+                    android:id="@+id/video14"
+                    app:showFullScreenButton="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Intense 25 min Full Body FAT BURNING Workout 🙋‍♀️| No Jumping Beginner Friendly"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="4dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="12dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="P7MRCFKmZns"
+                    app:showSeekBar="true"
+                    android:id="@+id/video15"
+                    app:showFullScreenButton="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EXERCISE TO LOSE WEIGHT FAST by Cult Fit | Belly Fat Workout | Burn Belly Fat | Cult Fit | CureFit"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="12dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="12dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="_knIf9vF4k4"
+                    app:showSeekBar="true"
+                    android:id="@+id/video16"
+                    app:showFullScreenButton="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Killer 10 Minute Fat Burning Bodyweight Workout"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="12dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="12dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="7KSNmziMqog"
+                    app:showSeekBar="true"
+                    android:id="@+id/video17"
+                    app:showFullScreenButton="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 MINUTE FAT BURNING MORNING ROUTINE | Do this every day | Rowan Row"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="12dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="12dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="ctlLJgxArZM"
+                    app:showSeekBar="true"
+                    android:id="@+id/video18"
+                    app:showFullScreenButton="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="V Shred 12 Minute Fat Burning Cardio Workout | No Equipment"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="12dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="12dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId="7fICF_O5esc"
+                    app:showSeekBar="true"
+                    android:id="@+id/video19"
+                    app:showFullScreenButton="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The PERFECT Workout to Lose Weight (Sets and Reps Included)"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:padding="12dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
